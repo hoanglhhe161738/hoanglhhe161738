@@ -1,0 +1,42 @@
+.left{
+    display: none;
+}
+header{
+    background-color: rgb(212, 205, 205);
+}
+header h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: yellow;
+}
+nav{
+    text-align: center;
+    color: black;
+}
+a{
+    background-color: gray;
+}
+.right{
+    background-color: rgb(212, 205, 205);
+}
+.right h2{
+    color: rgb(145, 137, 137);
+}
+
+.right h2{
+    color: gray;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+}
+
+th{
+    background-color: rgb(255, 255, 146);
+}
+
+#myform{
+    display: none;
+}
+

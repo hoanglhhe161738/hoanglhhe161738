@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+
+            font-weight: 300;
+        }
+
+        .form-container {
+            max-width: 300px;
+            padding: 32px;
+            margin: 36px auto 0 auto;
+            background-color: #fff;
+            border: 1px;
+            border-style: solid;
+            margin-top: 20%;
+        }
+
+        .form-row {
+            padding: 8px 0;
+            display: flex;
+
+        }
+
+        .form-label {
+            min-width: 70px;
+        }
+
+        .form-input {
+            flex: 1;
+        }
+
+        p {
+            text-align: center;
+            font-size: 30px;
+        }
+
+        .log {
+            margin-left: 40%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login">
+
+        <div class="form-container">
+            <p>Welcome Fap</p>
+            <div class="form-row">
+                <label class="form-label" for="name">Name:</label>
+                <input class="form-input" type="text">
+            </div>
+            <div class="form-row">
+                <label class="form-label" for="password">Password:</label>
+                <input class="form-input" type="password">
+            </div>
+            <input class="log" type="submit" value="Login">
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>F8-Unit</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="main.css">
+        
+        <style>
+            html{
+                front-size: 100px;
+            }
+            h1{
+                font-size: 2rem;
+            }
+
+            /* vw -width, vh-height*/
+            /* vw, vh*/
+            
+        </style>
+
+        <style>
+            .box{
+                width: 60px;
+                height: 60px;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                float: left;
+            }
+            .box1{               
+                background-color: red;
+            }
+            .box2{               
+                background-color: purple;
+                margin-left: 10px;
+            }
+            .box3{                        
+                background-color: yellow;    
+                margin-left: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="box"></div>
+
+        <div>
+            <h1>1. Absolute units</h1> <!-- đơn vị cố định khi khai báo sẽ có một kích thước cố định -->
+            <ul>
+                <li> px</li>
+                <li> pt</li>
+                <li> cm</li>
+                <li> mm</li>
+                <li> inch</li>
+                <li> pc</li>
+            </ul>
+        </div>
+
+        <div>
+            <h2>2. Relative units</h2> <!-- đơn vị tương đối khi khai báo sẽ có một kích thước không cố định -->
+            <ul>
+                <li> %</li>
+                <li> rem</li><!-- phụ thuộc vào kích thước của thẻ chứa nó-->
+                <li> em</li><!-- phụ thuộc vào kích thước của thẻ gần nhất chứa nó-->
+                <li> vw</li>
+                <li> vh</li>
+                <li> vmin</li>
+            </ul>
+        </div>
+
+        <div class="box box1"> box 1</div>
+        <div class="box box2"> box 2</div>
+        <div class="box box3"> box 3</div>
+        
+    </body>
+</html>
